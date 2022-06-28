@@ -1,12 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
 
-.footer {
+.mainclass {
     font-family: 'Space Grotesk', sans-serif;
-    display: flex;
-    flex: 1;
-    padding: 2rem 0;
-    border-top: 1px solid #eaeaea;
-    justify-content: center;
-    align-items: center;
+    text-decoration: none;
 }

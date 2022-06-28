@@ -1,0 +1,10 @@
+.screenimage{
+    overflow: hidden;
+    max-height: 30vh;
+}
+
+.heroImage{
+    width: 700px;
+    height: 500px;
+}
+
