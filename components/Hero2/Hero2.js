@@ -12,7 +12,7 @@ const Hero2 = () => {
                 <div className='col-lg-6'>
                     <h1 className='display-5 fw-bold lh-1 mb-3'>The Services We Provide</h1>
                     <p className='lead'>
-                        We provide various kinds of IT services. Among them, the most popular ones are Web Development, SEO & Software Development. We've a great development team who will do the work according your choice.
+                        We provide various kinds of IT services. Among them, the most popular ones are Web Development, SEO & Software Development. We have a great development team who will do the work according your choice.
                     </p>
                     <div className='d-grid gap-2 d-md-flex justify-content-md-start'>
                         <button type='button' className='btn btn-primary btn-lg px-4 me-md-2'>Web & Software</button>
