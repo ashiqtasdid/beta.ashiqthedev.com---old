@@ -4,7 +4,7 @@ import Link from 'next/dist/client/link'
 
 const login = () => {
   return (
-    <div className="modal modal-signin position-static d-block bg-secondary py-5" tabindex="-1" role="dialog" id="modalSignin">
+    <div className="modal modal-signin position-static d-block bg-secondary py-5" tabIndex="-1" role="dialog" id="modalSignin">
       <div className="modal-dialog" role="document">
         <div className="modal-content rounded-4 shadow">
           <div className="modal-header p-5 pb-4 border-bottom-0">
@@ -17,11 +17,11 @@ const login = () => {
             <form className="">
               <div className="form-floating mb-3">
                 <input type="email" className="form-control rounded-3" id="floatingInput" placeholder="name@example.com"/>
-                  <label for="floatingInput">Email address</label>
+                  <label htmlFor="floatingInput">Email address</label>
               </div>
               <div className="form-floating mb-3">
                 <input type="password" className="form-control rounded-3" id="floatingPassword" placeholder="Password"/>
-                  <label for="floatingPassword">Password</label>
+                  <label htmlFor="floatingPassword">Password</label>
               </div>
               <button className="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">Sign in</button>
               <small className="text-muted">By clicking Sign In, you agree to the terms of use.</small>

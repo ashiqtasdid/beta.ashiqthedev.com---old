@@ -13,7 +13,7 @@ const Hero3 = () => {
                         </div>
                         <div>
                             <h2>Server Deployment</h2>
-                            <p>We will deploy your server for free. And we'll also provide system for automatic server deployment. Our support will be available to you at any time</p>
+                            <p>We will deploy your server for free. And we will also provide system for automatic server deployment. Our support will be available to you at any time</p>
                         </div>
                     </div>
                     <div className="col d-flex align-items-start">
