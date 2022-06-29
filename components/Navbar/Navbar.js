@@ -4,7 +4,7 @@ import styles from '../../styles/navbar.module.css'
 import { useEffect } from 'react'
 import Image from 'next/dist/client/image'
 import navLogo from '../../assets/images/atd.jpg'
-import './navbar.module'
+// import './navbar.module'
 // import './navbar.module.bootstrap'
 import Link from 'next/dist/client/link'
 

@@ -4,7 +4,7 @@ import Head from 'next/head'
 const Header = () => {
     return (
         <Head>
-            <title>Ashiq The Dev - Developing That Matters</title>
+            {/* <title>Ashiq The Dev - Developing That Matters</title> */}
             <meta name="description" content="Ashiq The Dev - Developing That Matters is an IT consultant company. It provides various kinds of IT services including, Web & Mobile Development, SEO & much more" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <link rel="icon" href="/favicon.ico" />
