@@ -22,7 +22,7 @@ const Hero3 = () => {
                         </div>
                         <div>
                             <h2>Fast & Server side workspace</h2>
-                            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+                            <p>We will optimize your website/ app for Server Side rendering and also for faster speed.</p>
                             
                         </div>
                     </div>
@@ -31,8 +31,8 @@ const Hero3 = () => {
                             <svg className="bi" width="1em" height="1em"><BsTools /></svg>
                         </div>
                         <div>
-                            <h2>Featured title</h2>
-                            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+                            <h2>Customization</h2>
+                            <p>We provide the best settings for Customization. You can customize your website/ app according to your choice.</p>
                         </div>
                     </div>
                 </div>
