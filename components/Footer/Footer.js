@@ -139,7 +139,7 @@ const Footer = () => {
 
 
                 <div className="text-center p-4 extra-style text-black" style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-                    © 2021 Copyright:
+                    © 2022 Copyright:
                     <a className="text-reset fw-bold text-decoration-none" href="https://ashiqthedev.com">Ashiq The Dev - Developing That Matters</a>
                 </div>
 
