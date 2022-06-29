@@ -56,8 +56,8 @@ const Navbar = () => {
                                 </ul>
                             </li>
                         </ul>
-                        <Link href="/signup"><button type="button" class="btn btn-success me-1">Sign Up</button></Link>
-                        <Link href="/login"><button type="button" class="btn btn-outline-dark">Log In</button></Link>
+                        <Link href="/signup"><button type="button" className="btn btn-success me-1">Sign Up</button></Link>
+                        <Link href="/login"><button type="button" className="btn btn-outline-dark">Log In</button></Link>
                     </div>
                 </div>
             </nav>
