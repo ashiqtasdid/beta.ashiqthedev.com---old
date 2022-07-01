@@ -25,7 +25,7 @@ const HeroNewsLetter = () => {
 
                         <input className='w-100 btn btn-lg btn-primary' type="submit" value="Subscribe" name="member[subscribe]" id="member_submit" />
                         <hr className="my-4" />
-                        <div className="text-muted">By subscribing, you agree with Ours & Revue’s <a target="_blank" rel="noreferrer" href="https://www.getrevue.co/terms">Terms of Service</a> and <a target="_blank" href="https://www.getrevue.co/privacy">Privacy Policy</a>.</div>
+                        <div className="text-muted">By subscribing, you agree with Ours & Revue’s <a target="_blank" rel="noreferrer"  href="https://www.getrevue.co/terms">Terms of Service</a> and <a target="_blank" rel="noreferrer"  href="https://www.getrevue.co/privacy">Privacy Policy</a>.</div>
                     </form>
                 </div>
             </div>
