@@ -8,6 +8,7 @@ import Hero from '../components/Hero/Hero'
 import Divider from '../components/Divider/Divider'
 import Hero2 from '../components/Hero2/Hero2'
 import Hero3 from '../components/Hero3/Hero3'
+import HeroNewsLetter from '../components/HeroNewsLetter/HeroNewsLetter'
 // import Pricing from '../components/Pricing/Pricing'
 
 export default function Home() {
@@ -23,6 +24,8 @@ export default function Home() {
       <Hero2 />
       <Divider />
       <Hero3 />
+      <Divider/>
+      <HeroNewsLetter/>
       {/* <Pricing/> */}
       <Footer />
     </div>

@@ -21,22 +21,22 @@ const Footer = () => {
                         <span>Get connected with us on social networks:</span>
                     </div>
                     <div>
-                        <a href="" className="me-4 text-reset">
+                    <a href="https://facebook.com/ashiqthedev" className="me-4 text-reset">
                             <FaFacebook/>
                         </a>
-                        <a href="" className="me-4 text-reset">
+                        <a href="https://twitter.com/ashiqthedev" className="me-4 text-reset">
                             <FaTwitter/>
                         </a>
-                        <a href="" className="me-4 text-reset">
+                        <a href="https://twitch.tv/ashiqscarx" className="me-4 text-reset">
                             <FaTwitch/>
                         </a>
-                        <a href="" className="me-4 text-reset">
+                        <a href="https://discord.gg/kzSqqyM4Fg" className="me-4 text-reset">
                             <FaDiscord/>
                         </a>
-                        <a href="" className="me-4 text-reset">
+                        <a href="https://linkedin.com" className="me-4 text-reset">
                             <FaLinkedin/>
                         </a>
-                        <a href="" className="me-4 text-reset">
+                        <a href="https://github.com/ashiqthedev" className="me-4 text-reset">
                             <FaGithub/>
                         </a>
                     </div>
