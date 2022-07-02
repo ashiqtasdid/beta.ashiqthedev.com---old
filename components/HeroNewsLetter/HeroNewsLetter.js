@@ -47,7 +47,7 @@ const HeroNewsLetter = () => {
                         <div className="form-floating mb-3">
                             <input type="email" onChange={changeEmail}
                                 className="form-control" id="floatingInput" required placeholder="name@example.com" />
-                            <label for="floatingInput">Email address</label>
+                            <label htmlFor="floatingInput">Email address</label>
                         </div>
                         <button className="w-100 btn btn-lg btn-primary" type="submit">Subscribe</button>
                         <hr className="my-4" />
