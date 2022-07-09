@@ -4,6 +4,9 @@ import Link from 'next/dist/client/link'
 import { FaGoogle, FaTwitter, FaGithub } from 'react-icons/fa'
 import mongoose from 'mongoose'
 import connectDb from '../middleware/mongoose'
+
+
+
   return  (
     <div className="modal modal-signin position-static d-block bg-secondary py-5" tabIndex="-1" role="dialog" id="modalSignin">
       <div className="modal-dialog" role="document">
@@ -21,7 +24,7 @@ import connectDb from '../middleware/mongoose'
                 <label htmlFor="name">Name</label>
               </div>
               <div className="form-floating mb-3">
-                <input onChange={handleChange} type="email" class="form-control rounded-3" id="email" name='email' placeholder="name@example.com"/>
+                <input onChange={handleChange} type="email" className="form-control rounded-3" id="email" name='email' placeholder="name@example.com"/>
                   <label htmlFor="floatingInput">Email address</label>
               </div>
               <div className="form-floating mb-3">
