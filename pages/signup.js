@@ -4,7 +4,7 @@ import Link from 'next/dist/client/link'
 import { FaGoogle, FaTwitter, FaGithub } from 'react-icons/fa'
 import mongoose from 'mongoose'
 import connectDb from '../middleware/mongoose'
-
+const signup = () => {
   return  (
     <div className="modal modal-signin position-static d-block bg-secondary py-5" tabIndex="-1" role="dialog" id="modalSignin">
       <div className="modal-dialog" role="document">
@@ -51,6 +51,6 @@ import connectDb from '../middleware/mongoose'
       </div>
     </div>
   )
-
+  }
 
 export default signup
