@@ -4,44 +4,7 @@ import Link from 'next/dist/client/link'
 import { FaGoogle, FaTwitter, FaGithub } from 'react-icons/fa'
 import mongoose from 'mongoose'
 import connectDb from '../middleware/mongoose'
-
-const signup = () => {
-  const [name, setName] = useState()
-  const [email, setEmail] = useState()
-  const [password, setPassword] = useState()
-
-  const handleChange = (e) => {
-    if (e.target.name == 'name') {
-      setName(e.target.value)
-    }
-    else if (e.target.email == 'email') {
-      setEmail(e.target.value)
-    }
-    else if (e.target.password == 'password') {
-      setPassword(e.target.value)
-    }
-  }
-
-  const handleSubmit = async (e) => {
-    e.preventDefault()
-    const data = { name, email, password }
-
-    let res = await fetch('http://localhost:3000/api/signup', {
-      method: 'POST', // or 'PUT'
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(data),
-    })
-
-    let response = await res.json()
-    console.log(response)
-    setEmail('')
-    setName('')
-    setPassword('')
-  }
-
-  return (
+  return  (
     <div className="modal modal-signin position-static d-block bg-secondary py-5" tabIndex="-1" role="dialog" id="modalSignin">
       <div className="modal-dialog" role="document">
         <div className="modal-content rounded-4 shadow">
@@ -87,6 +50,6 @@ const signup = () => {
       </div>
     </div>
   )
-}
+
 
 export default signup
