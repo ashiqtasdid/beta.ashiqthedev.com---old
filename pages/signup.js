@@ -5,8 +5,6 @@ import { FaGoogle, FaTwitter, FaGithub } from 'react-icons/fa'
 import mongoose from 'mongoose'
 import connectDb from '../middleware/mongoose'
 
-
-
   return  (
     <div className="modal modal-signin position-static d-block bg-secondary py-5" tabIndex="-1" role="dialog" id="modalSignin">
       <div className="modal-dialog" role="document">
@@ -18,17 +16,17 @@ import connectDb from '../middleware/mongoose'
           </div>
 
           <div className="modal-body p-5 pt-0">
-            <form onSubmit={handleSubmit} method="POST" className="">
+            <form  method="POST" className="">
               <div className="form-floating mb-3">
-                <input onChange={handleChange} type="name" name="name" className="form-control rounded-3" id="name" placeholder="John Doe" />
+                <input type="name" name="name" className="form-control rounded-3" id="name" placeholder="John Doe" />
                 <label htmlFor="name">Name</label>
               </div>
               <div className="form-floating mb-3">
-                <input onChange={handleChange} type="email" className="form-control rounded-3" id="email" name='email' placeholder="name@example.com"/>
+                <input type="email" className="form-control rounded-3" id="email" name='email' placeholder="name@example.com"/>
                   <label htmlFor="floatingInput">Email address</label>
               </div>
               <div className="form-floating mb-3">
-                <input value={password} onChange={handleChange} type="password" className="form-control rounded-3" id="password" placeholder="Password" />
+                <input  type="password" className="form-control rounded-3" id="password" placeholder="Password" />
                 <label htmlFor="password">Password</label>
               </div>
               <button className="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">Sign Up</button>
