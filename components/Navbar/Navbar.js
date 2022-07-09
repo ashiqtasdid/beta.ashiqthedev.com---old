@@ -53,6 +53,8 @@ const Navbar = () => {
                                     <li><a className="dropdown-item" href="#">Privacy Policy</a></li>
                                     <li><hr className="dropdown-divider" /></li>
                                     <li><a className="dropdown-item" href="#">Terms & Coniditions</a></li>
+                                    <li><hr className='dropdown-divider'/></li>
+                                    <li><Link href="/announcements"><a className='dropdown-item'>Announcements</a></Link></li>
                                 </ul>
                             </li>
                         </ul>
